@@ -3,8 +3,9 @@
     --bg-color: hsla(21, 21%, 85%, 1);
     --text-color: hsla(0, 0%, 20%, 1);
     --accent-color: hsl(21.29, 16.76%, 63.73%);
-    --border-color: hsl(21.29, 16.76%, 63.73%);
+    --border-color: hsl(330, 4.76%, 91.76%);
     --btn-color: hsl(330, 4.76%, 91.76%);
+    --tranparent-bg-color: hsla(21.29, 16.76%, 63.73%, 0.75);
     --heading-text: font-family: 'Playfair Display', serif;
     --secondary-text: font-family: 'Josefin Sans', sans-serif;
     --main-text: font-family: 'Lora', serif;
@@ -19,6 +20,11 @@
 
   #about {
     background-image: url(../resources/Images/placeholder5.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: solid var(--border-color) 0.25rem;
+    border-radius: 0.25rem;
   }
 
   section {
@@ -28,7 +34,7 @@
   .about-color {
     width: 100%;
     height: 100%;
-    background-color: hsla(21.29, 16.76%, 63.73%, 0.5);
+    background-color: var(--tranparent-bg-color);
     padding-left: 0!important;
     padding-right: 0!important;
     margin-left: 0!important;
@@ -70,6 +76,13 @@
   .carousel-item img {
     height: auto;
     aspect-ratio: 16 / 7.5;
+  }
+
+  @media (max-width: 576px) {
+    .carousel-item img {
+      height: auto;
+      aspect-ratio: 1 / 1;
+    }
   }
 
   picture img {
