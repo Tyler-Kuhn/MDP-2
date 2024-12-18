@@ -1,47 +1,47 @@
 /* Setting up Variables*/
 :root {
-    --bg-color: hsla(21, 21%, 85%, 1);
-    --text-color: hsla(0, 0%, 20%, 1);
-    --accent-color: hsl(21.29, 16.76%, 63.73%);
-    --border-color: hsl(330, 4.76%, 91.76%);
-    --btn-color: hsl(330, 4.76%, 91.76%);
-    --tranparent-bg-color: hsla(21.29, 16.76%, 63.73%, 0.75);
-    --heading-text: font-family: 'Playfair Display', serif;
-    --secondary-text: font-family: 'Josefin Sans', sans-serif;
-    --main-text: font-family: 'Lora', serif;
-  }
+  --bg-color: hsla(21, 21%, 85%, 1);
+  --text-color: hsla(0, 0%, 25%, 1);
+  --accent-color: hsl(21.29, 16.76%, 63.73%);
+  --border-color: hsl(330, 4.76%, 91.76%);
+  --btn-color: hsl(330, 4.76%, 91.76%);
+  --tranparent-bg-color: hsla(21.29, 16.76%, 63.73%, 0.75);
+  --heading-text: "Playfair Display", serif;
+  --secondary-text: "Josefin Sans", sans-serif;
+  --main-text: "Lora", serif;
+}
 
-  /*Universal Styles*/
+/*Universal Styles*/
 
-  /*Fonts*/
-  h1, h2, h3 {
-  font-family: var(--heading-text)!important;
+/*Fonts*/
+h1,
+h2,
+h3 {
+  font-family: var(--heading-text) !important;
   color: var(--text-color);
-  }
+}
 
-  p {
-  font-family: var(--main-text)!important;
+p {
+  font-family: var(--main-text) !important;
   color: var(--text-color);
-  }
+}
 
-  p .secondary, a {
-  font-family: var(--secondary-text);
-  color: var(--text-color);
+p .secondary,
+a {
+  color: var(--text-color) !important;
   text-decoration: none;
-  }
+}
 
-  /*Colors*/
+/*Colors*/
 
-  body {
-    background-color: var(--bg-color)!important;
-  }
-  header {
-    background-color: hsla(330, 4.76%, 91.76%);
-  }
+body {
+  background-color: var(--bg-color) !important;
+}
+header {
+  background-color: hsla(330, 4.76%, 91.76%);
+}
 
-  /*Sizing*/
-  .icon {
-    height: 1.75rem !important;
-  }
-  
-
+/*Sizing*/
+.icon {
+  height: 1.75rem !important;
+}
