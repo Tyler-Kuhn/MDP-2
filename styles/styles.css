@@ -26,18 +26,14 @@ p {
   color: var(--text-color);
 }
 
-p .secondary,
-a {
-  color: var(--text-color) !important;
-  text-decoration: none;
-}
+
 
 /*Colors*/
 
 body {
   background-color: var(--bg-color) !important;
 }
-header {
+header, footer {
   background-color: hsla(330, 4.76%, 91.76%);
 }
 
