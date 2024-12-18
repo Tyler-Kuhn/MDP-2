@@ -69,12 +69,35 @@
         </div>
       </nav>
     </header>
-    <main class="container"></main>
+    <main class="container my-2">
+      <section id="contact" class="row">
+        <div class="col-12 d-flex justify-content-center">
+          <form class="w-50">
+            <div class="mb-3">
+              <label for="email" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="fName" class="form-label">First Name</label>
+              <input type="text" class="form-control" id="fName">
+            </div>
+            <div class="mb-3">
+              <label class="form-label" for="lName">Last Name</label>
+              <input type="text" class="form-control" id="lName">
+            </div>
+            <div class="mb-3">
+              <label class="form-label" for="message">Message</label>
+              <textarea class="form-control" id="message" rows="3"></textarea> 
+            </div>
+            <button type="submit" class="btn btn-light">Submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
     <footer class="mt-5">
       <nav class="navbar navbar-expand-sm">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Home</a>
-          </button>
           <div class="d-flex justify-content-end">
             <ul class="navbar-nav me-auto mt-2 mt-lg-0 flex-row">
               <li class="nav-item mx-2">
