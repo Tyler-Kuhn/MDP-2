@@ -35,9 +35,6 @@ section {
   margin-right: 0 !important;
 }
 
-.icon {
-  height: 1.75rem !important;
-}
 
 .carousel-inner {
   border: solid var(--border-color) 0.25rem;
@@ -70,4 +67,12 @@ picture img {
 h2,
 p {
   text-shadow: 3px 1px hsla(0, 0%, 50%, 0.5);
+}
+
+.contact-btn {
+    background-color: var(--border-color);
+}
+
+.contact-btn:hover{
+    background-color: var(--accent-color);
 }
