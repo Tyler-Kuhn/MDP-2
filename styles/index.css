@@ -39,9 +39,10 @@
   width: 85%;
 }
 
-@media (width: 576px){
+@media (max-width: 576px){
   .carousel {
-    width: 95%;
+    width: 98%!important;
+    margin-top: 1rem;
   }
 }
 
