@@ -39,7 +39,7 @@
   width: 85%;
 }
 
-@media (max-width: 576px){
+@media (max-width: 876px){
   .carousel {
     width: 98%!important;
     margin-top: 1rem;
@@ -61,7 +61,7 @@
   aspect-ratio: 16 / 7.5;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 876px) {
   .carousel-item img {
     height: auto;
     aspect-ratio: 1 / 1;
