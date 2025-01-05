@@ -1,14 +1,11 @@
 /* Setting up Variables*/
 :root {
-  --bg-color: linear-gradient(
-    hsla(21, 21%, 85%, 1),
-    hsl(21, 16%, 75%)
-  );
-  --text-color: hsl(21, 16%, 25%);
-  --accent-color: hsl(21, 30%, 40%);
-  --border-color: hsl(21, 16%, 70%);
-  --btn-color: hsl(21, 40%, 45%);
-  --card-color: hsl(21, 21%, 85%);
+  --bg-color: linear-gradient(to right, hsla(21, 21%, 85%, 1), hsl(21, 16%, 50%));
+  --text-color: hsl(21, 10%, 25%);
+  --accent-color: hsl(21, 25%, 45%);
+  --border-color: hsl(21, 16%, 65%);
+  --btn-color: hsl(21, 30%, 50%);
+  --card-color: hsl(21, 19%, 83%);
   --icon-color: hsl(5, 5%, 100%);
   --heading-text: "Playfair Display", serif;
   --secondary-text: "Josefin Sans", sans-serif;
@@ -43,7 +40,8 @@ p {
 /*Colors*/
 
 body {
-  background-color: var(--bg-color) !important;
+  background: var(--bg-color) !important;
+  object-fit: cover;
 }
 header,
 footer {
