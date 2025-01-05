@@ -1,7 +1,6 @@
 /* Setting up Variables*/
 :root {
   --bg-color: linear-gradient(
-    to right,
     hsla(21, 21%, 85%, 1),
     hsl(21, 16%, 75%)
   );
@@ -14,6 +13,7 @@
   --secondary-text: "Josefin Sans", sans-serif;
   --main-text: "Lora", serif;
 }
+
 
 /*Universal Styles*/
 
@@ -46,7 +46,7 @@ footer {
 
 .icons {
   height: 2rem !important;
-  background-color: var(--card-color)!important;
-  border: 1px, solid, white !important;
+  background-color: var(--bg-color) !important;
+  border: 1px, solid, var(--card-color) !important;
   border-radius: 50%;
 }
