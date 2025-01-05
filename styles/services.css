@@ -1,15 +1,3 @@
-:root {
-    --bg-color: hsla(21, 21%, 85%, 1);
-    --text-color: hsla(0, 0%, 20%, 1);
-    --accent-color: hsl(21.29, 16.76%, 63.73%);
-    --border-color: hsl(330, 4.76%, 91.76%);
-    --btn-color: hsl(330, 4.76%, 91.76%);
-    --tranparent-bg-color: hsla(21.29, 16.76%, 63.73%, 0.75);
-    --heading-text: "Playfair Display", serif;
-    --secondary-text: "Josefin Sans", sans-serif;
-    --main-text: "Lora", serif;
-  }
-
 
 #service-img {
     border: solid var(--border-color) 0.25rem; 

@@ -1,21 +1,18 @@
 /* Setting up Variables*/
 :root {
-  --bg-color: hsla(21, 21%, 85%, 1);
-  --text-color: hsla(0, 0%, 25%, 1);
-  --accent-color: hsl(21.29, 16.76%, 63.73%);
-  --border-color: hsl(330, 4.76%, 91.76%);
-  --btn-color: hsl(330, 4.76%, 91.76%);
-  --tranparent-bg-color: hsla(21.29, 16.76%, 63.73%, 0.75);
+  --bg-color: linear-gradient(
+    to right,
+    hsla(21, 21%, 85%, 1),
+    hsl(21, 16%, 75%)
+  );
+  --text-color: hsl(21, 16%, 25%);
+  --accent-color: hsl(21, 30%, 40%);
+  --border-color: hsl(21, 16%, 70%);
+  --btn-color: hsl(21, 40%, 45%);
+  --card-color: hsl(21, 21%, 85%);
   --heading-text: "Playfair Display", serif;
   --secondary-text: "Josefin Sans", sans-serif;
   --main-text: "Lora", serif;
-
-  --gradient:
-    linear-gradient(
-      45deg,
-      var(--bg-color),
-      var(--accent-color)
-    );
 }
 
 /*Universal Styles*/
@@ -37,18 +34,19 @@ p {
   color: var(--text-color);
 }
 
-
-
 /*Colors*/
 
 body {
   background-color: var(--bg-color) !important;
 }
-header, footer {
-  background-color: hsla(330, 4.76%, 91.76%);
+header,
+footer {
+  background-color: var(--accent-color);
 }
 
-/*Sizing*/
-.icon {
-  height: 1.75rem !important;
+.icons {
+  height: 2rem !important;
+  background-color: var(--card-color)!important;
+  border: 1px, solid, white !important;
+  border-radius: 50%;
 }
