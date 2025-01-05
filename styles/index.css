@@ -61,7 +61,7 @@
   margin-left: -60px;
   margin-right: 30px;
   border-radius: inherit;
-  box-shadow: 0 60px 40px rgb(0 0 0 / 8%);
+  box-shadow: 0 30px 10px rgb(0 0 0 / 8%);
   transition: border-radius 0.3s;
 }
 
@@ -131,10 +131,8 @@
     flex-direction: column;
   }
 
-  .sm-scrn {
+  .card > .sm-scrn {
     display: block;
-    object-fit: contain;
-    object-position: bottom;
   }
 
   .lg-scrn {
@@ -154,8 +152,8 @@
   .card img {
     margin: -100px 0 30px 0;
     width: 100%;
-    max-width: 1000px;
-    height: 250px;
+    max-width: 450px;
+    height: 375px;
   }
 
   .card p {
