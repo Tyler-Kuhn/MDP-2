@@ -9,6 +9,7 @@
   --border-color: hsl(21, 16%, 70%);
   --btn-color: hsl(21, 40%, 45%);
   --card-color: hsl(21, 21%, 85%);
+  --icon-color: hsl(5, 5%, 100%);
   --heading-text: "Playfair Display", serif;
   --secondary-text: "Josefin Sans", sans-serif;
   --main-text: "Lora", serif;
@@ -29,6 +30,11 @@ h3 {
   color: var(--text-color);
 }
 
+.nav-link {
+  color: var(--card-color)!important;
+
+}
+
 p {
   font-family: var(--main-text) !important;
   color: var(--text-color);
@@ -46,7 +52,7 @@ footer {
 
 .icons {
   height: 2rem !important;
-  background-color: var(--bg-color) !important;
+  background-color: var(--icon-color) !important;
   border: 1px, solid, var(--card-color) !important;
   border-radius: 50%;
 }
