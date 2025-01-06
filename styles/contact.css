@@ -14,10 +14,10 @@ h1 {
     transition: border-radius 0.3s;
 }
 
-form {
+.form-box {
+    margin: auto;
     width: 36vw;
-    height: 300px;
-    border-radius: inherit;
+    height: 500px;
     box-shadow: 0 30px 10px rgb(0 0 0 / 8%);
     transition: border-radius 0.3s;
     background-color: var(--card-color);
